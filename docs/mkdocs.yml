@@ -11,3 +11,12 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 site_name: Hello2
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
