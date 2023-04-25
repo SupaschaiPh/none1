@@ -1,16 +1,15 @@
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: black
-      icon:
-        repo: fontawesome/brands/github
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       primary: black
@@ -21,7 +20,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
         
-
+    
 
 
 repo_url: https://github.com/SupaschaiPh/none1
