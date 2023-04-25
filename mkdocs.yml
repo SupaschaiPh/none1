@@ -5,6 +5,8 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: black
+      icon:
+        repo: fontawesome/brands/git-alt
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -13,14 +15,17 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       primary: black
       scheme: slate
+      icon:
+        repo: fontawesome/brands/git-alt
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+        
 
 
 
 repo_url: https://github.com/SupaschaiPh/none1
-repo_name: squidfunk/mkdocs-material
+repo_name: SupaschaiPh/none1
 site_name: Hello
 markdown_extensions:
   - pymdownx.highlight:
