@@ -1,16 +1,17 @@
 theme:
   name: material
   palette:
-    primary: black
     # Palette toggle for light mode
-    media: "(prefers-color-scheme: light)"
+    - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    media: "(prefers-color-scheme: dark)"
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
       scheme: slate
       toggle:
         icon: material/brightness-4
